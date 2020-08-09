@@ -67,10 +67,10 @@ footer a {
     color: #024e76;
 }
 
-/*section {
+section {
     padding: 60px;
     background-image: url("../run-buddy/assets/images/hero-bg.jpg");
-}*/
+}
 
 /* Hero style start*/
 .hero {
@@ -79,18 +79,6 @@ footer a {
     background-size: cover;
     background-position: center;
     position: relative;
-}
-
-.hero-form {
-    background-color: #fce138;
-    padding: 20px;
-    width: 500px;
-    color: #024e76;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #024e76;
-    /* shorthand three values in one line*/
-    /*border: solid 3px #024e76;*/
 }
 
 .hero-form{
@@ -116,6 +104,7 @@ footer a {
 .form-input {
     border: 1px solid #024e76;
     display: block;
+    padding: 7px 15px;
     font-size: 16px;
     color: #024e76;
     width: 100%;
@@ -288,6 +277,7 @@ footer a {
 
 /* Reach out styles end*/
 
+/*secondary page*/
 .page-title {
     color: #fce138;
     display: inline-block;
