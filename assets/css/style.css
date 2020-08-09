@@ -44,29 +44,6 @@ header nav ul li a {
     font-size: 22px;
 }
 
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
-}
-
 section {
     padding: 60px;
     background-image: url("../run-buddy/assets/images/hero-bg.jpg");
@@ -287,3 +264,29 @@ section {
     font-size: 42px;
     font-style: italic;
 }
+ 
+/*Footer style*/
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+
+/*Footer end*/
