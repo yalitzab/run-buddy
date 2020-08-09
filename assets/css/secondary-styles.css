@@ -1,5 +1,3 @@
-
-
 .hero {
     background-position: bottom;
     height: auto;
@@ -7,28 +5,39 @@
     margin-bottom: 40px;
 }
 
-.secondary-content {
+/*secondary page*/
+.page-title {
+    color: #fce138;
+    display: inline-block;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+}
+
+article {
     width: 80%;
     margin: center;
     color: #024e76;
 }
 
-.secondary-content h3 {
+h3 {
     font-size: 2px;
     margin: 20px 0 20px 0;
 }
 
-.secondary-content p {
+p {
     font-size: 16px;
     line-height: 1.5;
     margin: 20px 0 20px 0;
 }
 
-.secondary-content ul {
+ul {
     margin: 15px 20px 15px 20px;
 }
 
-.secondary-content li {
+li {
     color: #39a6b2;
     margin: 10px 0 10px 0;
 }
