@@ -131,6 +131,11 @@ section {
     display: inline-block;
     margin: 0 auto;
     text-align: center;
+    
+}
+
+.intro {
+    text-align: center;
 }
 /*what we do end*/
 
@@ -364,4 +369,6 @@ footer a {
 
 .flex-row {
     display: flex;
+    text-align: center;
+    align-content: center;
 }
