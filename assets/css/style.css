@@ -255,7 +255,22 @@ section {
     font-size: 17px;
 }
 
-/*trainers*/
+/*trainers end*/
+
+/*Service plans grid*/
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px; 
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black; 
+}
+
+
 
 /*Reach out section*/
 .contact {
