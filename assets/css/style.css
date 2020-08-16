@@ -269,11 +269,44 @@ section {
 }
 
 .service-grid-container {
+    background: lightyellow;
+    width: 80%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1 repeat(2, 4fr);
+    grid-template-rows: repeat(5, 1fr) 2fr;
+    border: 2px solid #024e76;
+    color: #024e76;
+    font-size: 1.2rem;
 }
 
+.service-grid-item {
+    padding: 15px 0;
+    border: 2px solid #024e76;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-grid-item.basic {
+    grid-column: 2 / span 1;
+  }
+
+.service-grid-item.both {
+    grid-column: 2 / span 2;
+}
+
+.service-grid-item.cancel {
+    writing-mode: vertical-lr;
+    grid-column: 1;
+    grid-row: 1 / -1;
+    transform: rotate(180deg);
+}
+
+.grid-head, .grid-price, .service-grid-item.cancel {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
 /*Reach out section*/
 .contact {
@@ -321,7 +354,7 @@ section {
 .contact-form button {
     width: 100%;
     border: none;
-    background: #fce138
+    background: #fce138;
     color: #024e76;
     text-align: center;
     padding: 15px 0;
@@ -372,3 +405,25 @@ footer a {
 .flex-row {
     display: flex;
 }
+
+@media screen and (max-width: 768px) {
+
+    .service-grid-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .service-grid-item.basic {
+      grid-column: 1;
+    }
+  
+    .service-grid-item.both {
+      grid-column: 1 / -1;
+    }
+  
+    .service-grid-item.cancel {
+      transform: none;
+      writing-mode: unset;
+      grid-column: 1 / -1;
+      grid-row: -1;
+    }
+  }
