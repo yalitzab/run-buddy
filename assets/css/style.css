@@ -134,7 +134,7 @@ section {
     
 }
 
-.intro {
+.intro h2 {
     text-align: center;
 }
 /*what we do end*/
@@ -154,7 +154,9 @@ section {
     padding-bottom: 20px;
     text-align: center;
     margin: 2 auto 35px auto;
-    width: 50%; 
+    width: 80%; 
+    align-content: center;
+    align-items: center;
 }
 
 .primary-border {
@@ -281,7 +283,7 @@ section {
      color: #fce138;
  }
 
- .contact-info  {
+.contact-info  {
      display: flex;
      justify-content: space-between;
     flex-wrap: wrap;
