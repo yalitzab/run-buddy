@@ -61,7 +61,7 @@ section {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: cneter;
+    justify-content: center;
     flex-wrap: wrap; 
 }
 
@@ -256,6 +256,24 @@ section {
 }
 
 /*trainers*/
+
+/*Service Plans styles*/
+.services {
+    background: #fce138;
+}
+
+.service-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.service-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
 
 /*Reach out section*/
 .contact {
